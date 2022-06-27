@@ -1,0 +1,84 @@
+.chilli-section {
+  background-image: url("../images/burger-2.png");
+  background-color: #73624f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.chilli-info {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 20px 100px;
+  width: 400px;
+  min-height: 440px;
+}
+
+.chilli-info > h2 {
+  color: #fff;
+  color: #e48b2c;
+  font-size: xx-large;
+}
+
+.chilli-info > p {
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+}
+
+.chilli-info > .para-2 {
+  color: #e48b2c;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  MOBILE STYLING */
+@media (max-width: 768px) {
+  chilli-section {
+    background-image: url("../images/burger-2.png");
+    background-color: #73624f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .chilli-info {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 20px 100px;
+    width: 400px;
+    min-height: 440px;
+  }
+
+  .chilli-info > h2 {
+    color: #fff;
+    padding-bottom: 20px;
+    color: #e48b2c;
+    font-size: xx-large;
+  }
+
+  .chilli-info > p {
+    color: #fff;
+  }
+
+  .chilli-info > .para-2 {
+    color: #e48b2c;
+  }
+
+  .bt-chilli {
+    background-color: transparent;
+    color: #fff;
+    margin: 15px 0px 10px 0px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: fit-content;
+  }
+
+  .bt-chilli:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color: #73624f;
+  }
+}

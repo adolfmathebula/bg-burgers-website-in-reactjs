@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "heading": "Paring Your Burger With A Good Drink",
+        "text": "Lorem ipsum dolor sit amet, consectetuer euismod tincidunt ut laoreet dolore magna adipiscing elit, sed diam nonummy suscipit lobortis nisl ut aliquip ex ea commodo consequat ",
+        "date": "15 June 2022",
+        "author": "Adolf Mathebula"
+    },
+    {
+        "id": "2",
+        "heading": "Ideas For Your Birthday",
+        "text": "Lorem ipsum dolor sit amet, consectetuer nim veniam, quis nostrud adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
+        "date": "23 May2022",
+        "author": "Alex J. Smith"
+    },
+    {
+        "id": "3",
+        "heading": "Our Monthy Themes For",
+        "text": "Lorem ipsum dolor sit amet, sed h euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequa",
+        "date": "14 May 2022",
+        "author": "Joel McDonald"
+    },
+    {
+        "id": "4",
+        "heading": "The Best Branch Yet",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat",
+        "date": "08 April 2022",
+        "author": "William Fisher"
+    },
+    {
+        "id": "5",
+        "heading": "We Are Changing Our Reward System",
+        "text": "Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat",
+        "date": "26 March 2022",
+        "author": "Cathrine M. Cooper"
+    },
+    {
+        "id": "6",
+        "heading": "Burger That Saved My Life",
+        "text": "Lorem ipsum dolor sit amet, tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat",
+        "date": "18 Feb 2022",
+        "author": "Mpho H. Mudau"
+    }
+]

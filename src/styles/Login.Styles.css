@@ -1,0 +1,92 @@
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: small;
+  padding: 5px;
+  color: #ac865d;
+}
+
+.form-radio {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 0px;
+}
+
+.form-radio > span {
+  margin-left: 5px;
+}
+
+.radio-btn:hover {
+  cursor: pointer;
+}
+
+.form-radio-text {
+  font-weight: 500;
+  font-size: small;
+  color: #ac865d;
+}
+
+.form-input {
+  padding: 8px;
+}
+
+.form-submit-btn {
+  padding: 10px;
+  margin: 3px;
+  color: #fff;
+  background-color: #e48b2c;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.form-submit-btn:hover {
+  background-color: #ac865d;
+}
+
+.login-section > h1 {
+  color: #e48b2c;
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.form-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 200px;
+}
+
+.form-links > a {
+  font-size: small;
+  text-decoration: none;
+  color: #ac865d;
+}
+
+.form-links > a:hover {
+  color: #000;
+}
+
+.spacing {
+  margin: 125px !important;
+}
+
+/*  MOBILE STYLING */
+@media (max-width: 768px) {
+  .spacing {
+    margin-top: 70px !important;
+  }
+}

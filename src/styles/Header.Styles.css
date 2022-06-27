@@ -1,0 +1,143 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5c39e;
+}
+
+.spacing {
+  margin: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 60px 30px 60px;
+}
+
+.header-image-section {
+  align-self: flex-end;
+}
+
+.header-info-section > h1 {
+  color: #73624f;
+  font-weight: 900;
+}
+.header-info-section > p {
+  color: #fff;
+  padding: 10px 0 10px 0;
+  font-weight: 400;
+}
+
+.header-info-section > h3 {
+  color: #fff;
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.header-buttons1 {
+  padding-top: 30px;
+}
+
+.header-buttons2 {
+  display: none;
+  padding-top: 30px;
+}
+
+.text-underline {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+/*  MOBILE STYLING */
+@media (max-width: 768px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5c39e;
+  }
+
+  .spacing {
+    margin: 0px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 60px 30px 60px;
+  }
+
+  .header-info-section > h3 > br {
+    display: none;
+  }
+
+  .header-info-section > p > br {
+    display: none;
+  }
+
+  .header-image-section {
+    align-self: center;
+  }
+
+  .header-info-section > h1 {
+    color: #73624f;
+    font-weight: 900;
+    font-size: x-large;
+  }
+  .header-info-section > p {
+    color: #fff;
+    padding: 10px 0 10px 0;
+    font-weight: 400;
+  }
+
+  .header-info-section > h3 {
+    color: #fff;
+    font-weight: 900;
+    font-size: x-large;
+  }
+
+  .bt-order {
+    background-color: #e48b2c;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 20px;
+  }
+
+  .bt-order:hover {
+    background-color: #73624f;
+    cursor: pointer;
+  }
+
+  .bt-explore {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+
+  .bt-explore:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color: #73624f;
+  }
+
+  .header-buttons1 {
+    display: none;
+    padding-top: 30px;
+  }
+
+  .header-buttons2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .text-underline {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+  }
+}

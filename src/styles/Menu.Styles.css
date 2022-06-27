@@ -1,0 +1,137 @@
+.menu-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.new-burger-special {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-basis: 20%;
+  /* border: 1px solid red; */
+}
+
+.new-burger-special > img {
+  width: 150px;
+}
+
+.burger-price {
+  font-size: larger;
+  font-weight: 900;
+  color: #73624f;
+}
+
+.burger-name {
+  font-size: large;
+  font-weight: 700;
+  padding: 20px 0px 5px 0px;
+}
+
+.burger-includes {
+  font-size: xx-small;
+  color: #e48b2c;
+}
+
+.burger-name .burger-price .burger-includes {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.new-burger-special:hover {
+  background-color: #fdead6 !important;
+  border-radius: 30px;
+}
+
+/*  MOBILE STYLING */
+@media (max-width: 768px) {
+  .menu-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10px 0px 10px;
+    width: 100%;
+  }
+
+  .new-burger-info {
+    width: 90%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .new-burger-info > p {
+    padding-bottom: 20px;
+    font-size: small;
+  }
+
+  .new-burger-info > a > .bt-order {
+    background-color: #e48b2c;
+    cursor: pointer;
+  }
+
+  .new-burger-info > a > .bt-order:hover {
+    background-color: #73624f;
+    cursor: pointer;
+  }
+
+  .new-burger-special {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+  }
+
+  .new-burger-special > img {
+    width: 300px;
+  }
+
+  .burger-price {
+    font-size: larger;
+    font-weight: 900;
+    color: #73624f;
+  }
+
+  .burger-name {
+    font-size: x-large;
+    font-weight: 900;
+    padding: 20px 0px 5px 0px;
+  }
+
+  .burger-includes {
+    font-size: small;
+    color: #e48b2c;
+  }
+
+  .special {
+    color: #990000;
+    font-size: small;
+  }
+
+  .btn-order {
+    border: 0px;
+    background-color: #990000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin: 0px 2px;
+    font-size: x-small;
+  }
+
+  .btn-order:hover {
+    background-color: #e48b2c;
+    color: #fff;
+  }
+
+  .new-burger-special:hover {
+    background-color: #fdead6 !important;
+    border-radius: 30px;
+  }
+}

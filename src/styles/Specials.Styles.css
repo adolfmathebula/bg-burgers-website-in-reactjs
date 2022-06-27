@@ -1,0 +1,27 @@
+
+.specials-section{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px 20px 50px; 
+    background-color: #fff;
+}
+
+.specials-left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    margin-right: 70px;
+}
+
+.specials-left > h1{
+    color: #ff0000;
+    font-weight: 900;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+
+.spacing{
+    margin: 140px !important;
+}
+
