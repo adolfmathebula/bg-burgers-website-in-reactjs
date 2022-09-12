@@ -12,7 +12,7 @@ const Nav = () => {
     const { pathname } = useLocation();
 
     useEffect(() => {
-       setShow(!show)
+       setShow(s => !s)
     }, [pathname]);
 
     const mobileMenuClick = () => {
