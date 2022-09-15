@@ -29,7 +29,7 @@ const Nav = () => {
             {show ? (<button className='nav-mobile-bars' onClick={mobileMenuClick}>&#10006;</button>)
             :
             (<button className='nav-mobile-bars' onClick={mobileMenuClick}>&#9776;</button>)}    
-            {show && <MobileLinks/>}
+            {show ? <MobileLinks/>: ""}
         </div>
 
     </nav>
