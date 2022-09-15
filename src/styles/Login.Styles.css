@@ -58,8 +58,6 @@
 
 .login-section > h1 {
   color: #e48b2c;
-  padding: 0px;
-  margin-top: 30px;
 }
 
 .form-links {
@@ -81,12 +79,22 @@
 }
 
 .spacing {
-  margin: 125px !important;
+  margin: 125px;
 }
 
 /*  MOBILE STYLING */
 @media (max-width: 768px) {
   .spacing {
-    margin-top: 70px !important;
+    margin: 300px !important;
+  }
+
+  .logo {
+    font-size: large;
+    font-weight: 900;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
   }
 }

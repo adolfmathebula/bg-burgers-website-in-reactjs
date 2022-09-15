@@ -46,9 +46,12 @@
   .chilli-info {
     display: flex;
     flex-direction: column;
-    padding: 50px 0px 20px 100px;
-    width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+    width: 100% !important;
     min-height: 440px;
+    flex-wrap: wrap;
   }
 
   .chilli-info > h2 {
@@ -60,10 +63,12 @@
 
   .chilli-info > p {
     color: #fff;
+    margin: 0 25px;
   }
 
   .chilli-info > .para-2 {
     color: #e48b2c;
+    margin: 0 25px;
   }
 
   .bt-chilli {
@@ -74,6 +79,7 @@
     border: 1px solid #fff;
     border-radius: 20px;
     width: fit-content;
+    align-self: center;
   }
 
   .bt-chilli:hover {

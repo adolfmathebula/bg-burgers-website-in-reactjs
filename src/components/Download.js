@@ -7,7 +7,7 @@ const Download = () => {
   return (
     <section style={downloadSection}>
 
-        <h3 style={heading}>Download Our App</h3>
+        <h3 style={heading}>Our App</h3>
         <Link to='/nopage'><img src={GoogleIcon} alt="Google Play" style={image} /></Link>
         <Link to='/nopage'><img src={AppleIcon} alt="Apple Store"  style={image} /></Link>
 

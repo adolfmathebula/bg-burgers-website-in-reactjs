@@ -22,3 +22,22 @@
 .spacing {
   margin: 140px !important;
 }
+
+/*  MOBILE STYLING */
+@media (max-width: 768px) {
+  .nopage-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    background-color: #fff;
+  }
+
+  .nopage-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100% !important;
+    margin-right: 0px !important;
+  }
+}

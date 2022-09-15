@@ -80,6 +80,10 @@
     align-self: center;
   }
 
+  .header-img {
+    width: 300px;
+  }
+
   .header-info-section > h1 {
     color: #73624f;
     font-weight: 900;
