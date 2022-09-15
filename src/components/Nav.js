@@ -1,6 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
-import {useLocation} from 'react-router-dom'
+import { useState} from 'react'
 import '../styles/Nav.Styles.css'
 import {DesktopLinks} from './NavLinks'
 import {MobileLinks} from './NavLinks'
@@ -8,12 +7,6 @@ import {MobileLinks} from './NavLinks'
 const Nav = () => {
 
     const [show, setShow] = useState(false);
-
-    const { pathname } = useLocation();
-
-    useEffect(() => {
-       setShow(s => !s)
-    }, [pathname]);
 
     const mobileMenuClick = () => {
         setShow(!show);
